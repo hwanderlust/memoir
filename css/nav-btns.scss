@@ -1,0 +1,24 @@
+.nav-btn__wrapper {
+  grid-area: bottom;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+
+  .nav-btn__left, .nav-btn__right {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  
+  .nav-btn__left {
+    border-right: 40px solid black;
+  }
+  
+  .nav-btn__right {
+    border-left: 40px solid black;
+  }
+}
