@@ -35,7 +35,7 @@ body {
 
     .left__pic {
       max-width: 100%;
-      max-height: 80%;
+      max-height: 65vh;
       box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
 
@@ -105,30 +105,48 @@ body {
   .app {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 120%;
+  }
+
+  .header {
+    position: relative;
   }
 
   .nav-btn__wrapper {
-    bottom: unset;
-    top: 53%;
-    justify-content: flex-end;
-    right: 10vw;
+    display: none;
   }
   
   .left {
+    height: unset;
     position: relative;
-    top: 100px;
+    // margin-top: 5vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     
     .left__wrapper {
-      
+      margin-bottom: 5vh;
+
+      .left__pic {
+        max-height: 50vh;
+      }
+
       .left__caption {
         position: relative;
         top: 0;
         font-size: 1em;
       }
     }
+
+    .nav-btn__wrapper {
+      display: inline-flex;
+    }
   }
 
   .right {
+    height: unset;
     position: relative;
     top: 5vh;
   }
@@ -175,6 +193,7 @@ body {
     position: relative;
     bottom: unset;
     left: 25vw;
+    width: 75vw;
   }
 
   .tri-left, .tri-right {

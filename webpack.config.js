@@ -5,10 +5,10 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const devMode = process.env.NODE_ENV !== "production";
 
 module.exports = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   output: {
-    path: path.join(__dirname, '/dist'),
-    filename: '[name].[hash].js',
+    path: path.join(__dirname, "/dist"),
+    filename: "[name].[hash].js"
     // filename: '[name].js',
     // path: path.resolve(__dirname, '/dist'),
   },
@@ -18,48 +18,53 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: [
-          { 
-            loader: 'babel-loader',
+          {
+            loader: "babel-loader",
             options: {
-              plugins: ['transform-class-properties']
-            } 
-          },
+              plugins: [
+                "transform-class-properties"
+              ]
+            }
+          }
         ]
       },
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
-          { loader: devMode ? 'style-loader' : MiniCssExtractPlugin.loader },
-          { loader: 'css-loader', options: { minimize: true } },
-          { loader: 'postcss-loader', options: {
-            ident: 'postcss',
-            plugins: [require('autoprefixer')()]
-          } },
-          { loader: 'sass-loader' },
+          { loader: devMode ? "style-loader" : MiniCssExtractPlugin.loader },
+          { loader: "css-loader", options: { minimize: true } },
+          {
+            loader: "postcss-loader",
+            options: {
+              ident: "postcss",
+              plugins: [require("autoprefixer")()]
+            }
+          },
+          { loader: "sass-loader" }
         ]
-      },
+      }
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html'
+      template: "./public/index.html"
     }),
     new MiniCssExtractPlugin({
-      filename: devMode ? '[name].css' : '[name].[hash].css',
-      chunkFilename: devMode ? '[id].css' : '[id].[hash].css',
+      filename: devMode ? "[name].css" : "[name].[hash].css",
+      chunkFilename: devMode ? "[id].css" : "[id].[hash].css"
     }),
-    new CleanWebpackPlugin(['dist'])
+    new CleanWebpackPlugin(["dist"])
   ],
   optimization: {
-    runtimeChunk: 'single',
+    runtimeChunk: "single",
     splitChunks: {
       cacheGroups: {
         vendor: {
           test: /[\\\/]node_modules[\\\/]/,
-          name: 'vendors',
-          chunks: 'all'
+          name: "vendors",
+          chunks: "all"
         }
       }
     }
   }
-}
+};

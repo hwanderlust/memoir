@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/app.scss';
 import Hamburger from './components/Hamburger';
-import Header from './components/Header';
 import PicContainer from './components/PicContainer';
 import StoryContainer from './components/StoryContainer';
 import NavBtns from './components/NavBtns';
@@ -33,5 +32,11 @@ class App extends React.Component {
       </div>;
   }
 }
+
+
+const Header = () => {
+  return <h1 className="header">Memoir</h1>;
+};
+
 
 export default App;

@@ -1,10 +1,7 @@
-import React from 'react';
-import Title from "./Title";
-import Desc from "./Desc";
-import Category from "./Category";
-import Detail from "./Detail";
+import React, { memo } from 'react';
 
-const StoryContainer = () => {
+
+const StoryContainer = memo(() => {
   
   return (
     <main className="right">
@@ -24,6 +21,24 @@ const StoryContainer = () => {
       </div>
     </main>
   )
-}
+})
+
+
+const Title = ({ text }) => {
+  return <h1 className="right__title">{text}</h1>;
+};
+
+const Desc = ({ text }) => {
+  return <p className="right__desc">{text}</p>;
+};
+
+const Category = ({ text }) => {
+  return <h3 className="right__category">{text}</h3>;
+};
+
+const Detail = ({ text }) => {
+  return <p className="right__detail">{text}</p>;
+};
+
 
 export default StoryContainer;
