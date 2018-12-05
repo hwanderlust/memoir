@@ -1,8 +1,7 @@
 import React from 'react';
 import '../css/app.scss';
 import Hamburger from './components/Hamburger';
-import PicContainer from './components/PicContainer';
-import StoryContainer from './components/StoryContainer';
+import ContentContainer from './components/ContentContainer';
 import NavBtns from './components/NavBtns';
 
 class App extends React.Component {
@@ -25,8 +24,7 @@ class App extends React.Component {
 
         <Header />
 
-        <PicContainer />
-        <StoryContainer />
+        <ContentContainer />
 
         <NavBtns />
       </div>;

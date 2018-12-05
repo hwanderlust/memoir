@@ -126,7 +126,8 @@ export const cloudPics = [
     bytes: 7703484,
     width: 4000,
     height: 3000,
-    url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543727730/memoir/GOPR3015.jpg', secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727730/memoir/GOPR3015.jpg'
+    url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543727730/memoir/GOPR3015.jpg', 
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727730/memoir/GOPR3015.jpg'
   },
   {
     public_id: 'memoir/GOPR3123',

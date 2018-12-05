@@ -31,11 +31,12 @@ export class Store extends React.PureComponent {
   handleNext = () => {
 
     this.setState(prevState => {
+
       return {
         ...prevState,
         data: {
           ...prevState.data,
-          idx: prevState.data.idx + 1
+          idx: (prevState.data.idx === (cloudPics.length - 1)) ? 0 : prevState.data.idx + 1
         }
       }
     }, () => console.log(this.state))
