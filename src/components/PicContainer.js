@@ -7,13 +7,11 @@ const PicContainer = ({ store }) => {
   console.log(store);
 
   return (
-    
     <aside className="left">
       <figure className="left__wrapper">
 
-        {store.data.pics ? <Picture sizes="100%" src={store.data.pics[store.data.idx].secure_url} alt="" /> : null}
-        {/* {store.pics ? <Picture sizes="100%" src={store.pics[store.idx].secure_url} alt="" /> : null} */}
-        
+        {store.pics ? <Picture sizes="100%" src={store.pics[store.idx].secure_url} alt="" /> : null}
+          
         <Caption text="what is life" />
 
       </figure>
@@ -24,7 +22,7 @@ const PicContainer = ({ store }) => {
 }
 
 
-const Picture = ({ sizes, src, alt }) => {
+const Picture = ({ sizes, src, alt, low }) => {
 
   const diffResolutions = [
     ["w_256", "256w"],
@@ -44,7 +42,7 @@ const Picture = ({ sizes, src, alt }) => {
     for(let i=0; i<diffResolutions.length; i++) {
       let el = diffResolutions[i];
 
-      srcSet += src.replace(insertSpot, insertSpot + el[0] + '/') + ` ${el[1]}`;
+      srcSet += src.replace(insertSpot, insertSpot + (low ? "q_20," + el[0] : el[0]) + '/') + ` ${el[1]}`;
 
       if(i !== (diffResolutions.length - 1)) {
         srcSet += ", ";
@@ -52,12 +50,18 @@ const Picture = ({ sizes, src, alt }) => {
     }
   }
 
+  const handleHover = (e) => {
+    console.log('hovering')
+  }
+  
+
   return (
     <img
       className="left__pic"
       sizes={sizes}
       srcSet={srcSet}
       alt={alt}
+      onMouseOver={handleHover}
     />
   );
 };
