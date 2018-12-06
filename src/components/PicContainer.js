@@ -51,7 +51,7 @@ class PicContainer extends React.PureComponent {
   }
   
   render() {
-    const { pic } = this.props;
+    const { pic, caption } = this.props;
     const { picLoaded, showThumbnail } = this.state;
 
     return (
@@ -62,7 +62,7 @@ class PicContainer extends React.PureComponent {
             <Picture 
               classes="left__pic" 
               sizes="100%" 
-              src={pic.secure_url} 
+              src={pic} 
               alt="" 
               thumbnail 
             />
@@ -72,13 +72,13 @@ class PicContainer extends React.PureComponent {
             <Picture 
               classes={picLoaded ? "left__pic" : "hide"} 
               sizes="100%" 
-              src={pic.secure_url} 
+              src={pic} 
               alt="" 
               handleLoaded={this.handleGoodPicLoad}
             />
           ) : null}
             
-          <Caption text="what is life" />
+          <Caption text={caption} />
 
         </figure>
 

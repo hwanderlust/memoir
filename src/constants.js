@@ -10,7 +10,15 @@ export const cloudPics = [
     width: 2868,
     height: 4301,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543687141/memoir/AJH-NS-20171031-001-001-0005-SCAM02.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687141/memoir/AJH-NS-20171031-001-001-0005-SCAM02.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687141/memoir/AJH-NS-20171031-001-001-0005-SCAM02.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/DMGKE9706',
@@ -23,7 +31,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543691945/memoir/DMGKE9706.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691945/memoir/DMGKE9706.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691945/memoir/DMGKE9706.jpg',
+    story: {
+      title: 'the classy cinema',
+      caption: 'I can still smell the cookies',
+      desc: "A quick search for things to see and do around Wanaka and you'll see a mention of this movie theater--I knew I had to check it out and it was worth it. Outside is a beautiful paradise surrounded by mountains, lakes and rivers, but inside is a quaint and comfy cinema showing the latest films. Ragnarok, directed by a Kiwi, was the perfect showing--though I didn't know it at the time. And that pause for intermission was completely startling! People made their ways to the doors and you'd assume they'll be queueing up for the loo, but many went for the traditional cookies and other baked goods being sold out front. The sweet aroma quickly filled the room and forced my hand with 3 hand-sized cookies.",
+      location: 'Wanaka',
+      tip: 'get the cookies!',
+      worth: 'definitely'
+    }
   },
   {
     public_id: 'memoir/G0080400',
@@ -36,7 +52,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543726599/memoir/G0080400.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543726599/memoir/G0080400.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543726599/memoir/G0080400.jpg',
+    story: {
+      title: 'the first stop',
+      caption: 'where the whirlpools at?',
+      desc: "We met in Auckland at 6am to get a head start on traffic on the first of Oct to embark on a two-month road trip all around the north and south islands of NZ. Spent hours heading north going through winding one-lane roads, being stuck in traffic behind RVs and going through all the seasons just by driving north for a few hours. We passed the time by switching between English and Japanese songs I spent the night prior preparing and awing at the landscapes we passed. Little did we know what we would face in the coming weeks!",
+      location: 'Cape Reinga',
+      tip: 'always get gas',
+      worth: 'a nice drive'
+    }
   },
   {
     public_id: 'memoir/G0100541',
@@ -49,7 +73,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543726866/memoir/G0100541.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543726866/memoir/G0100541.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543726866/memoir/G0100541.jpg',
+    story: {
+      title: 'the beach onsen',
+      caption: 'camping out in warm water on the sandy beaches',
+      desc: "Having enjoyed my fill of onsens in Japan, I knew I had to come check this spot out! Clever like I am, I checked the best times and arrived just in time for it. Rented a shovel by the car park and didn't get scammed by locals in a neighboring town--you'd think a spot on location would be more expensive! I remember watching people get there late and try to squish their way in and forcibly make their own place by only making it uncomfortable for everyone else by spilling more hot water into our lairs. We continued to scramble to keep a comfortable temperature shaping our baths with cold sea water and the hot water leaking from the ground.",
+      location: 'Coromandel',
+      tip: 'arrive early',
+      worth: 'one of a kind exp'
+    }
   },
   {
     public_id: 'memoir/GOPR0448',
@@ -62,7 +94,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543727152/memoir/GOPR0448.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727152/memoir/GOPR0448.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727152/memoir/GOPR0448.jpg',
+    story: {
+      title: 'why snowboard when you can sandboard',
+      caption: 'scarier than it looks',
+      desc: "I remember seeing cool people and their videos sandboarding who knows where and pondering whether I'd ever make my way to a desert anytime soon. Turns out I didn't even need to! On the way back down south to Auckland we stopped by these sand dunes to get a glimpse into the desert landscape, but really just to sandboard. We got there early, just as the rental guy arrived. I spent most of my energy trying to keep the board from flying because it was v windy. They need a sand lift!",
+      location: 'Te Paki Sand Dunes',
+      tip: 'rent a board',
+      worth: 'w/o a doubt'
+    }
   },
   {
     public_id: 'memoir/GOPR0494',
@@ -75,7 +115,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543728491/memoir/GOPR0494.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543728491/memoir/GOPR0494.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543728491/memoir/GOPR0494.jpg',
+    story: {
+      title: 'the spontaneous waterfall',
+      caption: 'go with the flow',
+      desc: "Can't be a road trip if you don't swerve off course and check something out on a whim! Saw a sign for a waterfall as we were moving and checked it out. It was a whole park of nature in the mountains but easily accessible! I clearly remember 'camping' out in the evening and cooking our pasta there with the hindering winds against our weak gas cookers. Who knew it took so long to make basic pasta outside",
+      location: 'idk',
+      tip: 'be you',
+      worth: 'always'
+    }
   },
   {
     public_id: 'memoir/GOPR0813',
@@ -88,7 +136,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543727327/memoir/GOPR0813.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727327/memoir/GOPR0813.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727327/memoir/GOPR0813.jpg',
+    story: {
+      title: 'trekking in the spring',
+      caption: 'loving the first trek of the trip',
+      desc: "Looking back now I just wanted to check out this little gem and for a trek around while on the north island. But it was the perfect decision because I had been trying to get my companion to get splurge a little on proper gear before a multi-day hike. Afterwards we went shopping! It was nervewrecking and fun trying to jump from rock to rock across short river banks. But the best part was bathing at the top of a waterfall after a trek up!",
+      location: 'Kaimai Mamaku',
+      tip: 'waterproof shoes',
+      worth: 'fun times'
+    }
   },
   {
     public_id: 'memoir/GOPR2759',
@@ -101,7 +157,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543726431/memoir/GOPR2759.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543726431/memoir/GOPR2759.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543726431/memoir/GOPR2759.jpg',
+    story: {
+      title: 'on top of the world',
+      caption: 'cheesing while dying',
+      desc: "A steep climb on rocky terrain! I knew going down was going to be tons of fun--I like focusing myself as I hop from stone to stone as I fall down a mountain; it beats going up! Just look at that view though! For my Japanese friend, it was his first time meeting Belgians who were also on the trail. Every step was a slight gamble stepping on snow ontop of rocks; you never knew if there was a gap and you might fall in. All about testing the grounds before committing. It's like testing before merging with master!",
+      location: "Arthur's Path",
+      tip: 'hightops!',
+      worth: 'that view!'
+    }
   },
   {
     public_id: 'memoir/GOPR3008',
@@ -114,7 +178,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543727714/memoir/GOPR3008.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727714/memoir/GOPR3008.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727714/memoir/GOPR3008.jpg',
+    story: {
+      title: 'Welcome to Winterfell',
+      caption: "where'd all the Starks go?",
+      desc: "I always pictured glacier water to be more clear and transparent than have a masking gray and blue tint. It's amazing to think how most of NZ's landscape was formed from thawing glaciers and volcanos. It's no wonder the Maui had stories of such gods related in nature and stories explaining events in history. Who knew I'd learn more through visiting places than reading about it; maybe it's something more real about it when you breath, smell and feel a place.",
+      location: 'Mt Cook',
+      tip: 'relax',
+      worth: 'a must'
+    }
   },
   {
     public_id: 'memoir/GOPR3015',
@@ -127,7 +199,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543727730/memoir/GOPR3015.jpg', 
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727730/memoir/GOPR3015.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727730/memoir/GOPR3015.jpg',
+    story: {
+      title: 'the lord of the rings',
+      caption: 'I forget what happens in the movies',
+      desc: "I don't think they even filmed here! But just have a gander at this place! Basically anywhere in NZ is just as amazing, or even better! Yes, I know that was 3 consecutive exclamation points, but c'mon. Bask in this beauty, while I try to pose for this shot without getting adjacent poop on me.",
+      location: 'Mt Cook',
+      tip: 'take it in',
+      worth: 'of course'
+    }
   },
   {
     public_id: 'memoir/GOPR3123',
@@ -140,7 +220,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543727628/memoir/GOPR3123.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727628/memoir/GOPR3123.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727628/memoir/GOPR3123.jpg',
+    story: {
+      title: 'glaciers',
+      caption: 'where does the glacier water end?',
+      desc: "",
+      location: 'Tasman Glacier',
+      tip: 'close to Mt Cook',
+      worth: 'if you can'
+    }
   },
   {
     public_id: 'memoir/GOPR3171',
@@ -153,7 +241,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543728519/memoir/GOPR3171.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543728519/memoir/GOPR3171.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543728519/memoir/GOPR3171.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/GOPR3274',
@@ -166,7 +262,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543726362/memoir/GOPR3274.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543726362/memoir/GOPR3274.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543726362/memoir/GOPR3274.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/GOPR3302',
@@ -179,7 +283,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543726953/memoir/GOPR3302.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543726953/memoir/GOPR3302.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543726953/memoir/GOPR3302.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/GOPR3596',
@@ -192,7 +304,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543727507/memoir/GOPR3596.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727507/memoir/GOPR3596.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727507/memoir/GOPR3596.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/GOPR3646',
@@ -205,7 +325,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543727418/memoir/GOPR3646.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727418/memoir/GOPR3646.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727418/memoir/GOPR3646.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/GOPR3773',
@@ -218,7 +346,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543727118/memoir/GOPR3773.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727118/memoir/GOPR3773.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543727118/memoir/GOPR3773.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/GOPR3841',
@@ -231,7 +367,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543728127/memoir/GOPR3841.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543728127/memoir/GOPR3841.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543728127/memoir/GOPR3841.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0329',
@@ -244,7 +388,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543687918/memoir/IMG_0329.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687918/memoir/IMG_0329.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687918/memoir/IMG_0329.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0354',
@@ -257,7 +409,15 @@ export const cloudPics = [
     width: 2443,
     height: 2443,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543687819/memoir/IMG_0354.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687819/memoir/IMG_0354.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687819/memoir/IMG_0354.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0433',
@@ -270,7 +430,15 @@ export const cloudPics = [
     width: 2448,
     height: 3264,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543688337/memoir/IMG_0433.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688337/memoir/IMG_0433.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688337/memoir/IMG_0433.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0445',
@@ -283,7 +451,15 @@ export const cloudPics = [
     width: 2448,
     height: 3060,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543688093/memoir/IMG_0445.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688093/memoir/IMG_0445.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688093/memoir/IMG_0445.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0544',
@@ -296,7 +472,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543688158/memoir/IMG_0544.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688158/memoir/IMG_0544.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688158/memoir/IMG_0544.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0592',
@@ -309,7 +493,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543688717/memoir/IMG_0592.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688717/memoir/IMG_0592.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688717/memoir/IMG_0592.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0601',
@@ -322,7 +514,15 @@ export const cloudPics = [
     width: 960,
     height: 1280,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543688621/memoir/IMG_0601.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688621/memoir/IMG_0601.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688621/memoir/IMG_0601.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0676',
@@ -335,7 +535,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543688519/memoir/IMG_0676.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688519/memoir/IMG_0676.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688519/memoir/IMG_0676.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0806',
@@ -348,7 +556,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543688264/memoir/IMG_0806.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688264/memoir/IMG_0806.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688264/memoir/IMG_0806.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0827',
@@ -361,7 +577,15 @@ export const cloudPics = [
     width: 2448,
     height: 3264,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543689556/memoir/IMG_0827.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689556/memoir/IMG_0827.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689556/memoir/IMG_0827.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0832',
@@ -374,7 +598,15 @@ export const cloudPics = [
     width: 2448,
     height: 3264,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543689473/memoir/IMG_0832.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689473/memoir/IMG_0832.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689473/memoir/IMG_0832.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0868',
@@ -387,7 +619,15 @@ export const cloudPics = [
     width: 2448,
     height: 3264,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543688758/memoir/IMG_0868.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688758/memoir/IMG_0868.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688758/memoir/IMG_0868.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0929',
@@ -400,7 +640,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543689304/memoir/IMG_0929.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689304/memoir/IMG_0929.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689304/memoir/IMG_0929.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0955',
@@ -413,7 +661,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543689303/memoir/IMG_0955.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689303/memoir/IMG_0955.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689303/memoir/IMG_0955.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_0984',
@@ -426,7 +682,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543689074/memoir/IMG_0984.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689074/memoir/IMG_0984.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689074/memoir/IMG_0984.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1001',
@@ -439,7 +703,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543689344/memoir/IMG_1001.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689344/memoir/IMG_1001.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689344/memoir/IMG_1001.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1067',
@@ -452,7 +724,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543689524/memoir/IMG_1067.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689524/memoir/IMG_1067.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689524/memoir/IMG_1067.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1111',
@@ -465,7 +745,15 @@ export const cloudPics = [
     width: 2448,
     height: 3264,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543688549/memoir/IMG_1111.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688549/memoir/IMG_1111.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688549/memoir/IMG_1111.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1126',
@@ -478,7 +766,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543689620/memoir/IMG_1126.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689620/memoir/IMG_1126.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689620/memoir/IMG_1126.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1142',
@@ -491,7 +787,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543689756/memoir/IMG_1142.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689756/memoir/IMG_1142.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689756/memoir/IMG_1142.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1303',
@@ -504,7 +808,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543690007/memoir/IMG_1303.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543690007/memoir/IMG_1303.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543690007/memoir/IMG_1303.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1319',
@@ -517,7 +829,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543690325/memoir/IMG_1319.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543690325/memoir/IMG_1319.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543690325/memoir/IMG_1319.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1419',
@@ -530,7 +850,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543690821/memoir/IMG_1419.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543690821/memoir/IMG_1419.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543690821/memoir/IMG_1419.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1657',
@@ -543,7 +871,15 @@ export const cloudPics = [
     width: 2448,
     height: 3264,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543691882/memoir/IMG_1657.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691882/memoir/IMG_1657.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691882/memoir/IMG_1657.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1782',
@@ -556,7 +892,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543692240/memoir/IMG_1782.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543692240/memoir/IMG_1782.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543692240/memoir/IMG_1782.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1866',
@@ -569,7 +913,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543690345/memoir/IMG_1866.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543690345/memoir/IMG_1866.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543690345/memoir/IMG_1866.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1887',
@@ -582,7 +934,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543689917/memoir/IMG_1887.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689917/memoir/IMG_1887.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689917/memoir/IMG_1887.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1987',
@@ -595,7 +955,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543691338/memoir/IMG_1987.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691338/memoir/IMG_1987.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691338/memoir/IMG_1987.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1994',
@@ -608,7 +976,15 @@ export const cloudPics = [
     width: 1706,
     height: 960,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543691133/memoir/IMG_1994.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691133/memoir/IMG_1994.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691133/memoir/IMG_1994.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1996',
@@ -621,7 +997,15 @@ export const cloudPics = [
     width: 2000,
     height: 1600,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543691789/memoir/IMG_1996.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691789/memoir/IMG_1996.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691789/memoir/IMG_1996.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_1997',
@@ -634,7 +1018,15 @@ export const cloudPics = [
     width: 1706,
     height: 960,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543690028/memoir/IMG_1997.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543690028/memoir/IMG_1997.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543690028/memoir/IMG_1997.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_2145',
@@ -647,7 +1039,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543690646/memoir/IMG_2145.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543690646/memoir/IMG_2145.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543690646/memoir/IMG_2145.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_2256',
@@ -660,7 +1060,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543691260/memoir/IMG_2256.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691260/memoir/IMG_2256.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691260/memoir/IMG_2256.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_2359',
@@ -673,7 +1081,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543691043/memoir/IMG_2359.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691043/memoir/IMG_2359.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691043/memoir/IMG_2359.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_2533',
@@ -686,7 +1102,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543691679/memoir/IMG_2533.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691679/memoir/IMG_2533.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691679/memoir/IMG_2533.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_9210',
@@ -699,7 +1123,15 @@ export const cloudPics = [
     width: 2304,
     height: 2879,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543685644/memoir/IMG_9210.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543685644/memoir/IMG_9210.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543685644/memoir/IMG_9210.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_9229',
@@ -712,7 +1144,15 @@ export const cloudPics = [
     width: 2448,
     height: 3264,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543685869/memoir/IMG_9229.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543685869/memoir/IMG_9229.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543685869/memoir/IMG_9229.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_9419',
@@ -725,7 +1165,15 @@ export const cloudPics = [
     width: 2448,
     height: 3264,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543687063/memoir/IMG_9419.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687063/memoir/IMG_9419.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687063/memoir/IMG_9419.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_9641',
@@ -738,7 +1186,15 @@ export const cloudPics = [
     width: 2448,
     height: 3264,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543686177/memoir/IMG_9641.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543686177/memoir/IMG_9641.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543686177/memoir/IMG_9641.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_9853',
@@ -751,7 +1207,15 @@ export const cloudPics = [
     width: 4032,
     height: 2268,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543686014/memoir/IMG_9853.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543686014/memoir/IMG_9853.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543686014/memoir/IMG_9853.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/IMG_9977',
@@ -764,7 +1228,15 @@ export const cloudPics = [
     width: 4032,
     height: 2268,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543686363/memoir/IMG_9977.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543686363/memoir/IMG_9977.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543686363/memoir/IMG_9977.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/JYYSE4146',
@@ -777,7 +1249,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543691761/memoir/JYYSE4146.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691761/memoir/JYYSE4146.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691761/memoir/JYYSE4146.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/LGPBE7944',
@@ -790,7 +1270,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543688120/memoir/LGPBE7944.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688120/memoir/LGPBE7944.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688120/memoir/LGPBE7944.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/OKZDE0354',
@@ -803,7 +1291,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543688845/memoir/OKZDE0354.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688845/memoir/OKZDE0354.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543688845/memoir/OKZDE0354.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/OOKIE8336',
@@ -816,7 +1312,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543691457/memoir/OOKIE8336.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691457/memoir/OOKIE8336.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691457/memoir/OOKIE8336.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/QSMFE8616',
@@ -829,7 +1333,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543689248/memoir/QSMFE8616.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689248/memoir/QSMFE8616.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689248/memoir/QSMFE8616.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/Snapseed emerald',
@@ -842,7 +1354,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543687442/memoir/Snapseed%20emerald.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687442/memoir/Snapseed%20emerald.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687442/memoir/Snapseed%20emerald.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/Snapseed jump',
@@ -855,7 +1375,15 @@ export const cloudPics = [
     width: 4000,
     height: 3000,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543687553/memoir/Snapseed%20jump.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687553/memoir/Snapseed%20jump.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687553/memoir/Snapseed%20jump.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/Snapseed Lighthouse',
@@ -868,7 +1396,15 @@ export const cloudPics = [
     width: 2448,
     height: 3264,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543687334/memoir/Snapseed%20Lighthouse.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687334/memoir/Snapseed%20Lighthouse.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687334/memoir/Snapseed%20Lighthouse.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/Snapseed observatory',
@@ -881,7 +1417,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543687516/memoir/Snapseed%20observatory.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687516/memoir/Snapseed%20observatory.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687516/memoir/Snapseed%20observatory.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/Snapseed sheep',
@@ -894,7 +1438,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543687602/memoir/Snapseed%20sheep.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687602/memoir/Snapseed%20sheep.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543687602/memoir/Snapseed%20sheep.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/TTQFE2623',
@@ -907,7 +1459,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543689822/memoir/TTQFE2623.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689822/memoir/TTQFE2623.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689822/memoir/TTQFE2623.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/UDTVE1976',
@@ -920,7 +1480,15 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543691867/memoir/UDTVE1976.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691867/memoir/UDTVE1976.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543691867/memoir/UDTVE1976.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   },
   {
     public_id: 'memoir/USCME1531',
@@ -933,6 +1501,14 @@ export const cloudPics = [
     width: 3264,
     height: 2448,
     url: 'http://res.cloudinary.com/pablopawpaw/image/upload/v1543689200/memoir/USCME1531.jpg',
-    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689200/memoir/USCME1531.jpg'
+    secure_url: 'https://res.cloudinary.com/pablopawpaw/image/upload/v1543689200/memoir/USCME1531.jpg',
+    story: {
+      title: 'the nevis swing',
+      caption: 'face your fears',
+      desc: "I like this shot a lot because it's revealing my true honest feelings in that moment. You can clearly see my fear of what is to come. My heart dropped when the operator told me to just take a peek at the ground, cause at that very moment I knew he was going to drop me! After waking up in the morning from my hostel bed and walking over to the city centre's shop to hop onto a bus to get to this hidden spot an hour or so away from the city just to be willingly dropped. I remember initially desiring to do the bungee, but it was too expensive for my extended 'backpacking' road trip around NZ.",
+      location: 'Queenstown',
+      tip: 'go first.',
+      worth: 'do it!'
+    }
   }
 ]

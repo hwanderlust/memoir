@@ -1,22 +1,22 @@
 import React, { memo } from 'react';
 
 
-const StoryContainer = memo(() => {
+const StoryContainer = memo(({ title, desc, tip, location, worth}) => {
   
   return (
     <main className="right">
       <div className="right__wrapper">
-        <Title text="the good ol' days" />
-        <Desc text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+        <Title text={title} />
+        <Desc text={desc} />
         <hr />
 
         <section className="right__info">
           <Category text="location" />
-          <Detail text="queenstown" />
-          <Category text="type" />
-          <Detail text="outdoors" />
-          <Category text="recommendation" />
-          <Detail text="definitely" />
+          <Detail text={location} />
+          <Category text="tip" />
+          <Detail text={tip} />
+          <Category text="worth" />
+          <Detail text={worth} />
         </section>
       </div>
     </main>
